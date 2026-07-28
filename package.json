@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/blog-idea-authoring-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Authors a Blog Post Idea artifact from a working angle, audience, and source references. Used by the chat-create-artifact skill when the user asks to draft a blog idea / outline / angle for the editorial pipeline. Extracted from @cinatra-ai/blog-idea-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Blog Idea Authoring Skill",
+    "skillRole": "injectable",
+    "dependencies": []
+  }
+}
